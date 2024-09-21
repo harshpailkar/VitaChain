@@ -1,0 +1,3 @@
+def main(field date, field storedDate, field diagnosis, field storedDiagnosis) -> bool {
+    return date == storedDate && diagnosis == storedDiagnosis;
+}

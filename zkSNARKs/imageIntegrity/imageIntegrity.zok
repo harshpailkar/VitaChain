@@ -1,0 +1,3 @@
+def main(field date, field storedDate, field[256] image, field[256] storedImage) -> bool {
+    return date == storedDate && image == storedImage;
+}

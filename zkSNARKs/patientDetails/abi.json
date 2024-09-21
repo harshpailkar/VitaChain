@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "name": "name",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "age",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "gender",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedName",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedAge",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedGender",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}

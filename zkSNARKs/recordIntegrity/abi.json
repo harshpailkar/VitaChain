@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    {
+      "name": "date",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedDate",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "diagnosis",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedDiagnosis",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}

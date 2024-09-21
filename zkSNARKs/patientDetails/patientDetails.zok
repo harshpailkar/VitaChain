@@ -1,0 +1,3 @@
+def main(field name, field age, field gender, field storedName, field storedAge, field storedGender) -> bool {
+    return name == storedName && age == storedAge && gender == storedGender;
+}

@@ -1,0 +1,35 @@
+{
+  "inputs": [
+    {
+      "name": "date",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "storedDate",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "image",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 256,
+        "type": "field"
+      }
+    },
+    {
+      "name": "storedImage",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 256,
+        "type": "field"
+      }
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}
